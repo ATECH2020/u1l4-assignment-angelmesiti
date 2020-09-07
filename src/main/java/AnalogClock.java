@@ -19,3 +19,4 @@ class AnalogClock {
        scanner.close();
    }
 }
+
