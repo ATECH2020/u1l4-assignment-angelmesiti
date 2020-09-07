@@ -12,7 +12,7 @@ class AnalogClock {
        int hours = hourHand / 30;
        int degreesPast = hours * 30;
        int minPast = hourHand - degreesPast;//gets leftover  min.
-       int degreeMinHand = 30 - minPast; //moves 30 deg. every hr.
+       int degreeMinHand = minPast * 2; 
        degreeMinHand = degreeMinHand * 6;//moves 6 degrees a min
        System.out.print(degreeMinHand);
        // closing the scanner object
