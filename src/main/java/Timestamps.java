@@ -23,7 +23,8 @@ class Timestamps {
  
        int Final = TS2 - TS1;
  
-       System.out.print("The amount of seconds passed: " + Final);
+       System.out.print(Final);
+ 
  
        // closing the scanner object
        scanner.close();
